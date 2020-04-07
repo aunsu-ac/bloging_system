@@ -1,0 +1,93 @@
+h1
+{
+	background:#0B671A;
+	padding:10px 0px;
+	color:white;
+}
+#login_container
+{
+	width:35%;
+	height:auto;
+	margin:3% 10%;
+	float:left;
+	/* background:red; */
+	box-shadow: 0 0 10px #1D771B;
+}
+h2
+{
+	background:#0B671A;
+	padding:10px;
+	color:white;
+}
+a
+{
+	text-decoration: none;
+	color:white;
+	background:#0B671A;
+	font-size: 20px;
+}
+input[type=email]
+{
+	width:80%;
+	height:24px;
+}
+input[type=password]
+{
+	width:80%;
+	height:24px;
+}
+input[type=text]
+{
+	width:80%;
+	height:24px;
+}
+input[type=number]
+{
+	width:80%;
+	height:24px;
+}
+input[type=submit]
+{
+	width:80%;
+	height:30px;
+	background:#0B671A;
+	color:white;
+	font-size:18px;
+}
+#admin_login
+{
+	width:35%;
+	height:auto;
+	margin:3% 10% 0% 0%;
+	float:right;
+	/* background:red; */
+	box-shadow: 0 0 10px #1D771B;
+}
+@media only screen and (min-width: 274px) and (max-width:768px)
+{
+	#login_container
+	{
+		width: 100%;
+		margin: 20px 0px;
+	}
+	#admin_login
+	{
+	width: 100%;
+    margin: 0px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width:900px)
+{
+	#login_container
+	{
+		 width: 48%;
+		 margin: 0px;
+	}
+	#admin_login
+	{
+		width: 48%;
+		margin: 0px;
+	}
+}
+
+
